@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c447c9f7-035a-4eed-bb4f-41853415cc8d" name="Default" comment="" />
+    <list default="true" id="c447c9f7-035a-4eed-bb4f-41853415cc8d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/account/logout.blade.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/account/profile.blade.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/includes/header.blade.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/index.blade.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/layout/app.blade.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/layout/dashboard.blade.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/post/edit.blade.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/post/new.blade.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/posts/index.blade.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/app/Account_Status.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/app/Account_Status.php" />
+      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/app/Bericht.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/app/Gebruiker.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/app/User.php" />
+      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/Controller.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/Controller.php" />
+      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/public/js/app.js" afterPath="$PROJECT_DIR$/JelleVanDenBosch/public/js/app.js" />
+      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/welcome.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/routes/web.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/routes/web.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,37 +30,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Bericht.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Bericht.php">
+      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            <state relative-caret-position="319">
+              <caret line="97" column="64" lean-forward="true" selection-start-line="97" selection-start-column="64" selection-end-line="97" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gebruiker.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Gebruiker.php">
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Account_Status.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Account_Status.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>title</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>titel</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,9 +71,20 @@
         <option value="$PROJECT_DIR$/JelleVanDenBosch/database/migrations/2018_07_04_080251_create_gebruikers_table.php" />
         <option value="$PROJECT_DIR$/JelleVanDenBosch/database/migrations/2018_07_04_080326_create_berichten_table.php" />
         <option value="$PROJECT_DIR$/JelleVanDenBosch/database/migrations/2018_07_04_080344_create_account_status_table.php" />
-        <option value="$PROJECT_DIR$/JelleVanDenBosch/app/Bericht.php" />
         <option value="$PROJECT_DIR$/JelleVanDenBosch/app/Gebruiker.php" />
+        <option value="$PROJECT_DIR$/JelleVanDenBosch/resources/views/layout/app.blade.php" />
+        <option value="$PROJECT_DIR$/JelleVanDenBosch/resources/views/layout/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/JelleVanDenBosch/routes/web.php" />
+        <option value="$PROJECT_DIR$/JelleVanDenBosch/app/Bericht.php" />
+        <option value="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/Controller.php" />
+        <option value="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/JelleVanDenBosch/app/User.php" />
+        <option value="$PROJECT_DIR$/JelleVanDenBosch/app/Post.php" />
         <option value="$PROJECT_DIR$/JelleVanDenBosch/app/Account_Status.php" />
+        <option value="$PROJECT_DIR$/JelleVanDenBosch/resources/views/includes/header.blade.php" />
+        <option value="$PROJECT_DIR$/JelleVanDenBosch/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/JelleVanDenBosch/resources/views/posts/index.blade.php" />
       </list>
     </option>
   </component>
@@ -67,8 +95,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
@@ -110,20 +138,50 @@
               <item name="ExamenJellevandenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="JelleVanDenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Providers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="ExamenJellevandenBosch" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExamenJellevandenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="JelleVanDenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="ExamenJellevandenBosch" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExamenJellevandenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="JelleVanDenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ExamenJellevandenBosch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamenJellevandenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="JelleVanDenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ExamenJellevandenBosch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamenJellevandenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="JelleVanDenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ExamenJellevandenBosch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamenJellevandenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="JelleVanDenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="posts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ExamenJellevandenBosch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamenJellevandenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="JelleVanDenBosch" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -162,27 +220,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530690911132</updated>
-      <workItem from="1530690912555" duration="881000" />
+      <workItem from="1530690912555" duration="2362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="881000" />
+    <option name="totallyTimeSpent" value="2362000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="952" y="0" width="976" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36638832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -217,7 +275,7 @@
         <state relative-caret-position="588">
           <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding>
-            <element signature="e#33#71#0#PHP" expanded="true" />
+            <element signature="e#33#71#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -262,26 +320,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Bericht.php">
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/account/logout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Gebruiker.php">
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/account/profile.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/post/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/post/new.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/layout/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <marker date="1530692269183" expanded="true" signature="217:224" ph="..." />
+            <marker date="1530692269183" expanded="true" signature="408:430" ph="..." />
+            <marker date="1530692269183" expanded="true" signature="1080:1089" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/layout/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <marker date="1530692282352" expanded="true" signature="226:233" ph="..." />
+            <marker date="1530692282352" expanded="true" signature="417:455" ph="..." />
+            <marker date="1530692282352" expanded="true" signature="1105:1114" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Bericht.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Account_Status.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="420">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/includes/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="39" column="59" lean-forward="true" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+          <folding>
+            <marker date="1530692957861" expanded="true" signature="391:423" ph="..." />
+            <marker date="1530692957861" expanded="true" signature="705:737" ph="..." />
+            <marker date="1530692957861" expanded="true" signature="874:904" ph="..." />
+            <marker date="1530692957861" expanded="true" signature="973:998" ph="..." />
+            <marker date="1530692957861" expanded="true" signature="1094:1110" ph="..." />
+            <marker date="1530692957861" expanded="true" signature="1385:1404" ph="..." />
+            <marker date="1530692957861" expanded="true" signature="1612:1628" ph="..." />
+            <marker date="1530692957861" expanded="true" signature="1847:1864" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding>
+            <marker date="1530685102159" expanded="true" signature="9:27" ph="..." />
+            <marker date="1530685102159" expanded="true" signature="38:58" ph="..." />
+            <marker date="1530685102159" expanded="true" signature="70:79" ph="..." />
+            <marker date="1530685102159" expanded="true" signature="117:141" ph="..." />
+            <marker date="1530685102159" expanded="true" signature="157:185" ph="..." />
+            <marker date="1530685102159" expanded="true" signature="1174:1197" ph="..." />
+            <marker date="1530685102159" expanded="true" signature="1439:1464" ph="..." />
+            <marker date="1530685102159" expanded="true" signature="1532:1559" ph="..." />
+            <marker date="1530685102159" expanded="true" signature="3075:3109" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/posts/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="60" column="39" lean-forward="false" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+          <folding>
+            <marker date="1530693266584" expanded="true" signature="9:21" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="33:53" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="184:193" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="238:255" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="269:292" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="502:527" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="579:606" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="1184:1199" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="1320:1334" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="1391:1407" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="1467:1482" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="1672:1687" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="1733:1773" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="1902:1916" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="1977:1993" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="2057:2072" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="2135:2173" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="2229:2248" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="2359:2378" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="2579:2608" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="2699:2730" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="3032:3046" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="3107:3123" ph="..." />
+            <marker date="1530693266584" expanded="true" signature="3187:3202" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <marker date="1530693216653" expanded="true" signature="9:21" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="33:48" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="60:69" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="265:282" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="296:319" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="529:554" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="606:633" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="1222:1243" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="1364:1378" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="1435:1451" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="1511:1526" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="1716:1737" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="1783:1823" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="1952:1966" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="2027:2043" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="2107:2122" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="2185:2223" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="2279:2298" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="2409:2428" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="2629:2665" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="2756:2794" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="3096:3110" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="3171:3187" ph="..." />
+            <marker date="1530693216653" expanded="true" signature="3251:3266" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="97" column="64" lean-forward="true" selection-start-line="97" selection-start-column="64" selection-end-line="97" selection-end-column="64" />
           <folding />
         </state>
       </provider>
