@@ -77,10 +77,10 @@ class AdminController extends Controller
     public function update(Request $request, $id)
     {
         $input['id'] = $id;
-        $input['title'] = $request->post_title;
+        $input['titel'] = $request->post_title;
         $input['content'] = $request->post_content;
 
-        Post::find($input['id'])->update(['content'=>$input['content'], 'title' => $input['title']]);
+        Post::find($input['id'])->update(['content'=>$input['content'], 'titel' => $input['titel']]);
         $recentposts = DB::table('berichten')
             ->orderBy('updated_at', 'desc')
             ->limit(5)

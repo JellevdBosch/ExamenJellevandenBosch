@@ -43,23 +43,6 @@
                         </div>
                     </div>
                 @endif
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">[TITLE]</h5>
-
-                                <p class="card-text">
-                                    [CONTENT]
-                                </p>
-
-                                <a href="#" class="card-link">[LINK]</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.col-md-6 -->
-                </div>
-                <!-- /.row -->
             </div><!-- /.container-fluid -->
         </div>
         <!-- /.content -->

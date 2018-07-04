@@ -22,7 +22,7 @@
                 <li class="nav-item has-treeview menu-close">
                     <a href="/" class="nav-link">
                         <p>
-                            Base
+                            Dashboard
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
@@ -32,32 +32,10 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                        <li class="nav-item has-treeview menu-close">
-                            <a href="/" class="nav-link">
+                        <li class="nav-item">
+                            <a href="{{ url('admin/accounts/') }}" class="nav-link">
                                 <p>Accounts</p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <p>All Accounts</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <p>Normal Accounts</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <p>Suspended Accounts</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <p>Banned Accounts</p>
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
                         </li>
                     </ul>

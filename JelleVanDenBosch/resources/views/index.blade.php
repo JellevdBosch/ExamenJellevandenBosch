@@ -42,7 +42,7 @@
                                     @endforeach
                                 @else
                                     @foreach ($recentposts as $post)
-                                        @if(\Auth::user()->username == $post->author)
+                                        @if(\Auth::user()->username == $post->author || \Auth::user()->admin == 1)
                                             <div class="card card-body">
                                                 <h3>{{ $post->titel }}</h3>
                                                 <p>{{ $post->content }}</p>
@@ -53,8 +53,8 @@
                                                     {{ $post->created_at }}
                                                 @endif
                                                 <div class="pull-right">
-                                                    <small><a href="{{ url('/admin/post/edit/'.$post->id) }}">Edit</a></small>
-                                                    <small><a href="{{ url('/admin/post/delete/'.$post->id) }}">Delete</a></small>
+                                                    <small><a href="{{ url('/post/edit/'.$post->id) }}">Edit</a></small>
+                                                    <small><a href="{{ url('/post/delete/'.$post->id) }}">Delete</a></small>
                                                 </div>
                                             </div>
                                         @else
@@ -62,6 +62,11 @@
                                                 <h3>{{ $post->titel }}</h3>
                                                 <p>{{ $post->content }}</p>
                                                 <small>{{ $post->author }}</small>
+                                                @if($post->updated_at != $post->created_at)
+                                                    {{ $post->updated_at }}
+                                                @else
+                                                    {{ $post->created_at }}
+                                                @endif
                                             </div>
                                         @endif
                                     @endforeach

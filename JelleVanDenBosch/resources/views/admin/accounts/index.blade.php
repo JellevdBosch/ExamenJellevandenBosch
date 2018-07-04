@@ -15,14 +15,14 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0 text-dark">All Posts</h1>
+                            <h1 class="m-0 text-dark">Normal Posts</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item active">
                                     <a href="{{ url("/admin") }}">Dashboard</a>
-                                    /
-                                    <a href="{{ url("/admin/posts") }}">Posts</a>
+                                     /
+                                    <a href="{{ url("/admin/accounts") }}">Accounts</a>
                                 </li>
                             </ol>
                         </div><!-- /.col -->
@@ -35,29 +35,22 @@
             <div class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        @foreach ($posts as $post)
-                        <div class="col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">{{ $post->titel }}</h5>
+                        @foreach ($accounts as $account)
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{ $account->username }}</h5>
 
-                                    <p class="card-text">
-                                        {{ $post->content }}
-                                    </p>
-                                    <div class="card-footer">
-                                        <small class="card-info"><b>author:</b> {{ $post->author }}</small><br>
-                                        <small class="card-info"><b>created at:</b> {{ $post->created_at }}</small><br>
-                                        <small class="card-info"><b>updated at:</b>{{ $post->updated_at }}</small>
-                                    </div>
-                                    <div class="card-tools">
-                                        <small class="card-info"><a href="{{ url('/admin/post/edit/'.$post->id) }}">Edit</a></small>
-                                        <small class="card-info"><a href="{{ url('/admin/post/delete/'.$post->id) }}">Delete</a></small>
+                                        <div class="card-footer">
+                                            <small class="card-info"><b>id:</b> {{ $account->id }}</small><br>
+                                            <small class="card-info"><b>email:</b> {{ $account->email }}</small><br>
+                                            <small class="card-info"><b>admin:</b> {{ $account->admin }}</small><br>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        @endforeach
-                        <!-- /.col-md-6 -->
+                    @endforeach
+                    <!-- /.col-md-6 -->
                     </div>
                     <!-- /.row -->
                 </div><!-- /.container-fluid -->

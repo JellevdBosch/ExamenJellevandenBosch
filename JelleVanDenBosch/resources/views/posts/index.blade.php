@@ -61,6 +61,11 @@
                                                 <h3>{{ $post->titel }}</h3>
                                                 <p>{{ $post->content }}</p>
                                                 <small>{{ $post->author }}</small>
+                                                @if($post->updated_at != $post->created_at)
+                                                    {{ $post->updated_at }}
+                                                @else
+                                                    {{ $post->created_at }}
+                                                @endif
                                             </div>
                                         @endif
                                     @endforeach

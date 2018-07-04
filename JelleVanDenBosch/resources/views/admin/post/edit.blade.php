@@ -20,7 +20,9 @@
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item active">
-                                    <a href="/">Edit Post</a>
+                                    <a href="{{ url("/admin") }}">Dashboard</a>
+                                    /
+                                    <a href="{{ url("/admin/posts") }}">Posts</a>
                                 </li>
                             </ol>
                         </div><!-- /.col -->
@@ -54,7 +56,7 @@
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="post_title">Post Title</label>
-                                            <input name="post_title" type="text" class="form-control" id="post_title" placeholder="Enter Title" value="{{ $post->title }}">
+                                            <input name="post_title" type="text" class="form-control" id="post_title" placeholder="Enter Title" value="{{ $post->titel }}">
                                         </div>
                                         <div class="form-group">
                                             <label for="post_content">Post Content</label>

@@ -14,6 +14,6 @@ class Account_Status extends Model
      * @var array
      */
     protected $fillable = [
-        ['user_id', 'banned', 'suspended', 'violation', 'suspension_start', 'suspension_end']
+        ['user_id', 'banned',]
     ];
 }
