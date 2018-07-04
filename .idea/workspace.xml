@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c447c9f7-035a-4eed-bb4f-41853415cc8d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ExamenJellevandenBosch.iml" afterPath="$PROJECT_DIR$/.idea/ExamenJellevandenBosch.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/app/Account_Status.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/app/Account_Status.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/AdminController.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/AdminController.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/Auth/ForgotPasswordController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/Auth/LoginController.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/Auth/LoginController.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/Auth/ResetPasswordController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/PostController.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/PostController.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/app/User.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/database/migrations/2018_07_04_080251_create_gebruikers_table.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/database/migrations/2018_07_04_080344_create_account_status_table.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/database/migrations/2018_07_04_082123_create_posts_table.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/accounts/all.blade.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/accounts/index.blade.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/accounts/banned.blade.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/Auth/RegisterController.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/accounts/normal.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/accounts/suspended.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/index.blade.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/index.blade.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/post/edit.blade.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/post/edit.blade.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/posts/index.blade.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/posts/index.blade.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/auth/login.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/auth/passwords/email.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/auth/passwords/reset.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/auth/register.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/includes/dashboard/nav.blade.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/includes/dashboard/nav.blade.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/includes/dashboard/sidebar.blade.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/includes/dashboard/sidebar.blade.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/index.blade.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/layouts/app.blade.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/post/edit.blade.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/post/edit.blade.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/post/new.blade.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/post/new.blade.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/posts/index.blade.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/resources/views/posts/index.blade.php" />
-      <change beforePath="$PROJECT_DIR$/JelleVanDenBosch/routes/web.php" afterPath="$PROJECT_DIR$/JelleVanDenBosch/routes/web.php" />
-    </list>
+    <list default="true" id="c447c9f7-035a-4eed-bb4f-41853415cc8d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -62,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -73,8 +39,8 @@
       <file leaf-file-name="AccountController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/AccountController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="462">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="21" selection-start-column="72" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -86,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/accounts/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+              <caret line="17" column="71" lean-forward="false" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
               <folding>
                 <marker date="1530706254797" expanded="true" signature="9:27" ph="..." />
                 <marker date="1530706254797" expanded="true" signature="38:58" ph="..." />
@@ -110,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
               <folding>
                 <marker date="1530705272506" expanded="true" signature="9:27" ph="..." />
                 <marker date="1530705272506" expanded="true" signature="38:58" ph="..." />
@@ -130,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/post/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
-              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="25" selection-end-column="37" />
+              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <marker date="1530706264400" expanded="true" signature="9:27" ph="..." />
                 <marker date="1530706264400" expanded="true" signature="38:58" ph="..." />
@@ -155,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/posts/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+              <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
               <folding>
                 <marker date="1530706277369" expanded="true" signature="9:27" ph="..." />
                 <marker date="1530706277369" expanded="true" signature="38:58" ph="..." />
@@ -182,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/includes/dashboard/nav.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+              <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding>
                 <marker date="1530706087444" expanded="true" signature="356:388" ph="..." />
                 <marker date="1530706087444" expanded="true" signature="513:543" ph="..." />
@@ -567,12 +533,12 @@
       <updated>1530690911132</updated>
       <workItem from="1530690912555" duration="9685000" />
       <workItem from="1530700664196" duration="1897000" />
-      <workItem from="1530702588659" duration="3726000" />
+      <workItem from="1530702588659" duration="4304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15308000" />
+    <option name="totallyTimeSpent" value="15886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -722,7 +688,7 @@
         <state relative-caret-position="441">
           <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
-            <element signature="e#43#79#0#PHP" expanded="true" />
+            <element signature="e#43#79#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,7 +728,7 @@
         <state relative-caret-position="189">
           <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
-            <element signature="e#23#63#0#PHP" expanded="true" />
+            <element signature="e#23#63#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -785,7 +751,7 @@
         <state relative-caret-position="1218">
           <caret line="58" column="41" lean-forward="false" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
           <folding>
-            <element signature="e#43#56#0#PHP" expanded="true" />
+            <element signature="e#43#56#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1042,7 +1008,7 @@
     <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1050,7 +1016,7 @@
     <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
@@ -1060,7 +1026,7 @@
     <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/includes/dashboard/nav.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding>
             <marker date="1530706087444" expanded="true" signature="356:388" ph="..." />
             <marker date="1530706087444" expanded="true" signature="513:543" ph="..." />
@@ -1072,7 +1038,7 @@
     <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/accounts/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+          <caret line="17" column="71" lean-forward="false" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
           <folding>
             <marker date="1530706254797" expanded="true" signature="9:27" ph="..." />
             <marker date="1530706254797" expanded="true" signature="38:58" ph="..." />
@@ -1094,7 +1060,7 @@
     <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
           <folding>
             <marker date="1530705272506" expanded="true" signature="9:27" ph="..." />
             <marker date="1530705272506" expanded="true" signature="38:58" ph="..." />
@@ -1112,7 +1078,7 @@
     <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/post/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="25" selection-end-column="37" />
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="25" selection-end-column="37" />
           <folding>
             <marker date="1530706264400" expanded="true" signature="9:27" ph="..." />
             <marker date="1530706264400" expanded="true" signature="38:58" ph="..." />
@@ -1135,7 +1101,7 @@
     <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/resources/views/admin/posts/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
           <folding>
             <marker date="1530706277369" expanded="true" signature="9:27" ph="..." />
             <marker date="1530706277369" expanded="true" signature="38:58" ph="..." />
@@ -1159,8 +1125,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JelleVanDenBosch/app/Http/Controllers/AccountController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="462">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="21" selection-start-column="72" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
