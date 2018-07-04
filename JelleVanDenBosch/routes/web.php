@@ -29,3 +29,6 @@ Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
     Route::match(['get', 'post'], '/admin/', 'HomeController@admin');
     Route::match(['get', 'post'], '/auth/', 'HomeController@admin');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
